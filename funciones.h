@@ -5,10 +5,12 @@ void menu();
 
 void menuSmartphones();
 void submenuRam();
+void submenuPortatilesPulgadas();
+
 void menuTablets();
 void menuPortatiles();
 void subMenuPortatilesSO();
-void submenuPortatilesPulgadas();
+
 
 
 #endif //PROYECTO_PROG_IV_FUNCIONES_H

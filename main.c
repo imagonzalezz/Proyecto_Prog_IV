@@ -34,7 +34,7 @@ void menuPortatiles(){
     switch (opcion) {
         case '1'://TODO
         case '2':subMenuPortatilesSO();break;
-      // case '3':submenuPortatilesPulgadas();break;
+        case '3':submenuPortatilesPulgadas();break;
         case '4':submenuRam();break;
         case '5':menu();break;
         default:printf("No ha seleccionado un numero correcto");menuPortatiles();
@@ -44,6 +44,12 @@ void menuPortatiles(){
 void subMenuPortatilesSO(){
     //TODO
 }
+
+void submenuPortatilesPulgadas(){
+
+
+}
+
 
 
 
