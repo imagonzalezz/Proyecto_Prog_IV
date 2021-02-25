@@ -4,13 +4,11 @@
 void menu();
 
 void menuSmartphones();
-
+void submenuRam();
 void menuTablets();
-
 void menuPortatiles();
-void mostrarTodosPortatiles();
 void subMenuPortatilesSO();
 void submenuPortatilesPulgadas();
-void submenuPortatilesRAM();
+
 
 #endif //PROYECTO_PROG_IV_FUNCIONES_H

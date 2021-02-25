@@ -34,24 +34,20 @@ void menuPortatiles(){
     switch (opcion) {
         case '1'://TODO
         case '2':subMenuPortatilesSO();break;
-        case '3':submenuPortatilesPulgadas();break;
-        case '4':submenuPortatilesRAM();break;
+      // case '3':submenuPortatilesPulgadas();break;
+        case '4':submenuRam();break;
         case '5':menu();break;
         default:printf("No ha seleccionado un numero correcto");menuPortatiles();
     }
 }
-void mostrarTodosPortatiles(){
-    //TODO
-}
+
 void subMenuPortatilesSO(){
     //TODO
 }
-void subMenuPortatilesPulgadas(){
-    //TODO
-}
-void subMenuPortatilesRAM(){
-    //TODO
-}
+
+
+
+
 
 void menuTablets(){
     printf("");
@@ -60,3 +56,7 @@ void menuTablets(){
 void menuSmartphones(){
     printf("");
 }
+void submenuRam(){
+    //TODO
+}
+
