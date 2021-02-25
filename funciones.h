@@ -2,14 +2,8 @@
 #define PROYECTO_PROG_IV_FUNCIONES_H
 
 void menu();
+void submenu(char);
 
-void menuSmartphones();
-void submenuRam();
-void submenuPortatilesPulgadas();
-
-void menuTablets();
-void menuPortatiles();
-void subMenuPortatilesSO();
 
 
 

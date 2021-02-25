@@ -8,61 +8,45 @@ int main() {
 
 void menu(){
     char opcion;
+
     printf("Bienvenido a UDTechnologies\n");
     printf("1.- Smartphones\n");
     printf("2.- Tablets\n");
     printf("3.- Ordenadores Portatiles\n");
     fflush(stdin);
     scanf("%c",&opcion);
+
     switch (opcion) {
-        case '1':menuSmartphones();break;
-        case '2':menuTablets();break;
-        case '3':menuPortatiles();break;
+
+        case '1':submenu(opcion);break;
+        case '2':submenu(opcion);break;
+        case '3':submenu(opcion);break;
         default:printf("No ha seleccionado un numero correcto\n");menu();
+
     }
+
 }
 
-void menuPortatiles(){
-    char opcion;
-    printf("1.- Mostrar todos los portatiles\n");
-    printf("2.- Filtrar por SO\n");
-    printf("3.- Filtrar por pulgadas\n");
-    printf("4.- Filtrar por memoria RAM\n");
-    printf("5.- Volver\n");
-    fflush(stdin);
-    scanf("%c",&opcion);
+
+
+void submenu(char opcion){
+
+    printf("Mostrar todos \n");
+    printf("Filtrar por SO\n");
+    printf("Filtrar por pulgadas\n");
+    printf("Filtrar por RAM\n");
+
     switch (opcion) {
-        case '1'://TODO
-        case '2':subMenuPortatilesSO();break;
-        case '3':submenuPortatilesPulgadas();break;
-        case '4':submenuRam();break;
-        case '5':menu();break;
-        default:printf("No ha seleccionado un numero correcto");menuPortatiles();
+        case '1':printf("Opcion extra smartphone 1\n");
+                 printf("Opcion extra smartphone 2\n");
+                 break;
+        case '2':printf("Opcion extra tablet 1\n");
+                 printf("Opcion extra tablet 2\n");
+                 break;
+        case '3':printf("Opcion extra portatil 1\n");
+                 printf("Opcion extra portatil 2\n");
+                 break;
     }
-}
 
-void subMenuPortatilesSO(){
-    //TODO
-}
-
-void submenuPortatilesPulgadas(){
-
-
-}
-
-
-
-
-
-
-void menuTablets(){
-    printf("");
-}
-
-void menuSmartphones(){
-    printf("");
-}
-void submenuRam(){
-    //TODO
 }
 
