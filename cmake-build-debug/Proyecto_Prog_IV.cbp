@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/funciones.c">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/funciones.h">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
 		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/main.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>

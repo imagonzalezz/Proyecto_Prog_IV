@@ -143,6 +143,33 @@ Proyecto_Prog_IV/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_Prog_IV.dir/build.make CMakeFiles/Proyecto_Prog_IV.dir/build
 .PHONY : Proyecto_Prog_IV/fast
 
+funciones.o: funciones.c.o
+
+.PHONY : funciones.o
+
+# target to build an object file
+funciones.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_Prog_IV.dir/build.make CMakeFiles/Proyecto_Prog_IV.dir/funciones.c.o
+.PHONY : funciones.c.o
+
+funciones.i: funciones.c.i
+
+.PHONY : funciones.i
+
+# target to preprocess a source file
+funciones.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_Prog_IV.dir/build.make CMakeFiles/Proyecto_Prog_IV.dir/funciones.c.i
+.PHONY : funciones.c.i
+
+funciones.s: funciones.c.s
+
+.PHONY : funciones.s
+
+# target to generate assembly for a file
+funciones.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_Prog_IV.dir/build.make CMakeFiles/Proyecto_Prog_IV.dir/funciones.c.s
+.PHONY : funciones.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Proyecto_Prog_IV"
+	@echo "... funciones.o"
+	@echo "... funciones.i"
+	@echo "... funciones.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

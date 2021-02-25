@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Proyecto_Prog_IV.dir/funciones.c.o"
   "CMakeFiles/Proyecto_Prog_IV.dir/main.c.o"
   "Proyecto_Prog_IV"
   "Proyecto_Prog_IV.pdb"

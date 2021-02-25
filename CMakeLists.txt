@@ -3,4 +3,4 @@ project(Proyecto_Prog_IV C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Proyecto_Prog_IV main.c)
+add_executable(Proyecto_Prog_IV main.c funciones.h)
