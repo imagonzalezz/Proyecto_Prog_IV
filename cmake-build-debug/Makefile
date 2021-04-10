@@ -142,6 +142,33 @@ Proyecto_Prog_IV/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/build
 .PHONY : Proyecto_Prog_IV/fast
 
+ficheros.obj: ficheros.c.obj
+
+.PHONY : ficheros.obj
+
+# target to build an object file
+ficheros.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/ficheros.c.obj
+.PHONY : ficheros.c.obj
+
+ficheros.i: ficheros.c.i
+
+.PHONY : ficheros.i
+
+# target to preprocess a source file
+ficheros.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/ficheros.c.i
+.PHONY : ficheros.c.i
+
+ficheros.s: ficheros.c.s
+
+.PHONY : ficheros.s
+
+# target to generate assembly for a file
+ficheros.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/ficheros.c.s
+.PHONY : ficheros.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -196,6 +223,33 @@ menus.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/menus.c.s
 .PHONY : menus.c.s
 
+usuario.obj: usuario.c.obj
+
+.PHONY : usuario.obj
+
+# target to build an object file
+usuario.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.obj
+.PHONY : usuario.c.obj
+
+usuario.i: usuario.c.i
+
+.PHONY : usuario.i
+
+# target to preprocess a source file
+usuario.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.i
+.PHONY : usuario.c.i
+
+usuario.s: usuario.c.s
+
+.PHONY : usuario.s
+
+# target to generate assembly for a file
+usuario.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.s
+.PHONY : usuario.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -205,12 +259,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Proyecto_Prog_IV
+	@echo ... ficheros.obj
+	@echo ... ficheros.i
+	@echo ... ficheros.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... menus.obj
 	@echo ... menus.i
 	@echo ... menus.s
+	@echo ... usuario.obj
+	@echo ... usuario.i
+	@echo ... usuario.s
 .PHONY : help
 
 

@@ -5,6 +5,7 @@
 #ifndef PROYECTO_PROG_IV_MENUS_H
 #define PROYECTO_PROG_IV_MENUS_H
 
-void mostrarMenu();
+char mostrarMenu();
+void inicioSesion();
 
 #endif //PROYECTO_PROG_IV_MENUS_H

@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/ficheros.c">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/ficheros.h">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/main.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
@@ -81,6 +87,12 @@
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/menus.h">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/usuario.c">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/usuario.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/CMakeLists.txt">
