@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\imade\CLionProjects\Proyecto_Prog_IV
+CMAKE_SOURCE_DIR = C:\Users\ikery\CLionProjects\ProyectoProgIV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto_Prog_IV.dir/depend.make
@@ -78,30 +78,45 @@ include CMakeFiles/Proyecto_Prog_IV.dir/flags.make
 
 CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj: CMakeFiles/Proyecto_Prog_IV.dir/flags.make
 CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto_Prog_IV.dir\main.c.obj   -c C:\Users\imade\CLionProjects\Proyecto_Prog_IV\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto_Prog_IV.dir\main.c.obj   -c C:\Users\ikery\CLionProjects\ProyectoProgIV\main.c
 
 CMakeFiles/Proyecto_Prog_IV.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto_Prog_IV.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\imade\CLionProjects\Proyecto_Prog_IV\main.c > CMakeFiles\Proyecto_Prog_IV.dir\main.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ikery\CLionProjects\ProyectoProgIV\main.c > CMakeFiles\Proyecto_Prog_IV.dir\main.c.i
 
 CMakeFiles/Proyecto_Prog_IV.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto_Prog_IV.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\imade\CLionProjects\Proyecto_Prog_IV\main.c -o CMakeFiles\Proyecto_Prog_IV.dir\main.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ikery\CLionProjects\ProyectoProgIV\main.c -o CMakeFiles\Proyecto_Prog_IV.dir\main.c.s
+
+CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj: CMakeFiles/Proyecto_Prog_IV.dir/flags.make
+CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj: ../menus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Proyecto_Prog_IV.dir\menus.c.obj   -c C:\Users\ikery\CLionProjects\ProyectoProgIV\menus.c
+
+CMakeFiles/Proyecto_Prog_IV.dir/menus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Proyecto_Prog_IV.dir/menus.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ikery\CLionProjects\ProyectoProgIV\menus.c > CMakeFiles\Proyecto_Prog_IV.dir\menus.c.i
+
+CMakeFiles/Proyecto_Prog_IV.dir/menus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Proyecto_Prog_IV.dir/menus.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ikery\CLionProjects\ProyectoProgIV\menus.c -o CMakeFiles\Proyecto_Prog_IV.dir\menus.c.s
 
 # Object files for target Proyecto_Prog_IV
 Proyecto_Prog_IV_OBJECTS = \
-"CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj"
+"CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj" \
+"CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj"
 
 # External object files for target Proyecto_Prog_IV
 Proyecto_Prog_IV_EXTERNAL_OBJECTS =
 
 Proyecto_Prog_IV.exe: CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj
+Proyecto_Prog_IV.exe: CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj
 Proyecto_Prog_IV.exe: CMakeFiles/Proyecto_Prog_IV.dir/build.make
 Proyecto_Prog_IV.exe: CMakeFiles/Proyecto_Prog_IV.dir/linklibs.rsp
 Proyecto_Prog_IV.exe: CMakeFiles/Proyecto_Prog_IV.dir/objects1.rsp
 Proyecto_Prog_IV.exe: CMakeFiles/Proyecto_Prog_IV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Proyecto_Prog_IV.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Proyecto_Prog_IV.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto_Prog_IV.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +129,6 @@ CMakeFiles/Proyecto_Prog_IV.dir/clean:
 .PHONY : CMakeFiles/Proyecto_Prog_IV.dir/clean
 
 CMakeFiles/Proyecto_Prog_IV.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\imade\CLionProjects\Proyecto_Prog_IV C:\Users\imade\CLionProjects\Proyecto_Prog_IV C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug\CMakeFiles\Proyecto_Prog_IV.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ikery\CLionProjects\ProyectoProgIV C:\Users\ikery\CLionProjects\ProyectoProgIV C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles\Proyecto_Prog_IV.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto_Prog_IV.dir/depend
 

@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\imade\CLionProjects\Proyecto_Prog_IV
+CMAKE_SOURCE_DIR = C:\Users\ikery\CLionProjects\ProyectoProgIV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug\CMakeFiles C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\imade\CLionProjects\Proyecto_Prog_IV\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ikery\CLionProjects\ProyectoProgIV\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/main.c.s
 .PHONY : main.c.s
 
+menus.obj: menus.c.obj
+
+.PHONY : menus.obj
+
+# target to build an object file
+menus.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj
+.PHONY : menus.c.obj
+
+menus.i: menus.c.i
+
+.PHONY : menus.i
+
+# target to preprocess a source file
+menus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/menus.c.i
+.PHONY : menus.c.i
+
+menus.s: menus.c.s
+
+.PHONY : menus.s
+
+# target to generate assembly for a file
+menus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/menus.c.s
+.PHONY : menus.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... menus.obj
+	@echo ... menus.i
+	@echo ... menus.s
 .PHONY : help
 
 
