@@ -40,7 +40,7 @@ void mostrarMenu(){
         case '1':submenu(opcion);break;
         case '2':submenu(opcion);break;
         case '3':submenu(opcion);break;
-        default:printf("No ha seleccionado un numero correcto\n");menu();
+        default:printf("No ha seleccionado un numero correcto\n");mostrarMenu();
 
     }
 
