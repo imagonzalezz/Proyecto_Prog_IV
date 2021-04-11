@@ -6,7 +6,7 @@
 
 char mostrarMenu(){
     char opcion;
-    printf("Selecciona el tipo de dispositivo\n")
+    printf("Selecciona el tipo de dispositivo\n");
     printf("1. Smartphones\n");
     printf("2. Tablets\n");
     printf("3. Portatiles\n");

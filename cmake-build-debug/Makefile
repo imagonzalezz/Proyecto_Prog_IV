@@ -223,6 +223,33 @@ menus.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/menus.c.s
 .PHONY : menus.c.s
 
+movil.obj: movil.c.obj
+
+.PHONY : movil.obj
+
+# target to build an object file
+movil.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/movil.c.obj
+.PHONY : movil.c.obj
+
+movil.i: movil.c.i
+
+.PHONY : movil.i
+
+# target to preprocess a source file
+movil.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/movil.c.i
+.PHONY : movil.c.i
+
+movil.s: movil.c.s
+
+.PHONY : movil.s
+
+# target to generate assembly for a file
+movil.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/movil.c.s
+.PHONY : movil.c.s
+
 usuario.obj: usuario.c.obj
 
 .PHONY : usuario.obj
@@ -268,6 +295,9 @@ help:
 	@echo ... menus.obj
 	@echo ... menus.i
 	@echo ... menus.s
+	@echo ... movil.obj
+	@echo ... movil.i
+	@echo ... movil.s
 	@echo ... usuario.obj
 	@echo ... usuario.i
 	@echo ... usuario.s

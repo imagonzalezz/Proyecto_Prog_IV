@@ -5,13 +5,7 @@
 #include <stdio.h>
 #include "usuario.h"
 
-typedef struct{
-    char usuario[20];
-    char con[20];
-    int permiso; //1 usuario normal, 2 vendedor, 3 administrador del sistema
-}Usuario;
-
-void registrar(){
+Usuario pedirDatosUsuario(){
     Usuario u;
     printf("Introduzca un nombre de usuario:");
     fflush(stdin);
@@ -19,13 +13,14 @@ void registrar(){
     printf("Introduzca una contraseña:");
     fflush(stdin);
     scanf("%s",u.con);
+    return u;
 }
 
-void inicioSesion(){
-    char usuario[20];
-    char con[20];
+Usuario inicioSesion(){
+    Usuario u;
     printf("Nombre de usuario:");
-    scanf("%s",usuario);
+    scanf("%s",u.usuario);
     printf("Contraseña:");
-    scanf("%s",con);
+    scanf("%s",u.con);
+    return u;
 }

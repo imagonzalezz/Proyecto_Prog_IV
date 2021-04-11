@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_Prog_IV.dir/ficheros.c.obj"
   "CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj"
   "CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj"
+  "CMakeFiles/Proyecto_Prog_IV.dir/movil.c.obj"
   "CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.obj"
   "Proyecto_Prog_IV.exe"
   "Proyecto_Prog_IV.exe.manifest"
