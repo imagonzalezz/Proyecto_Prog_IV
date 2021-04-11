@@ -80,6 +80,12 @@
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/dispositivos.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/eedd.c">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/eedd.h">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/ficheros.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>

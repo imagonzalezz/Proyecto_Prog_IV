@@ -169,6 +169,33 @@ dispositivos.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/dispositivos.c.s
 .PHONY : dispositivos.c.s
 
+eedd.obj: eedd.c.obj
+
+.PHONY : eedd.obj
+
+# target to build an object file
+eedd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/eedd.c.obj
+.PHONY : eedd.c.obj
+
+eedd.i: eedd.c.i
+
+.PHONY : eedd.i
+
+# target to preprocess a source file
+eedd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/eedd.c.i
+.PHONY : eedd.c.i
+
+eedd.s: eedd.c.s
+
+.PHONY : eedd.s
+
+# target to generate assembly for a file
+eedd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/eedd.c.s
+.PHONY : eedd.c.s
+
 ficheros.obj: ficheros.c.obj
 
 .PHONY : ficheros.obj
@@ -289,6 +316,9 @@ help:
 	@echo ... dispositivos.obj
 	@echo ... dispositivos.i
 	@echo ... dispositivos.s
+	@echo ... eedd.obj
+	@echo ... eedd.i
+	@echo ... eedd.s
 	@echo ... ficheros.obj
 	@echo ... ficheros.i
 	@echo ... ficheros.s

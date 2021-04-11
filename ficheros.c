@@ -4,20 +4,6 @@
 
 #include "ficheros.h"
 
-void aniadirUsuario(Usuario u){
-    FILE *pf;
-    pf = fopen("Usuarios.dat","ab");
-    if (pf!=(FILE *)NULL){
-        fwrite(&u, sizeof(u),1,pf);
-        fclose(pf);
-    }else
-        printf("Ha ocurrido un error");
-}
-
-void aniadirMovil(Movil m, Movil *aMoviles, int *tam){
-
-}
-
 int tamanioFicheroUsuarios(){ //Devuelve el numero de usuarios en el fichero
     FILE *pf;
     int tamanio;
