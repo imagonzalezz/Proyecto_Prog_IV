@@ -123,3 +123,60 @@ int cargarTelevisionesDeFichero(Television *aTeles){
         printf("Ha ocurrido un error al cargar las televisiones");
     return tam;
 }
+
+void guardarUsuariosEnFichero(Usuario *aUsuarios,int tam){
+    FILE *pf;
+    int i;
+    Usuario u;
+    pf = fopen("Usuarios.dat","wb");
+    if (pf!=(FILE *)NULL){
+        for (i = 0; i < tam; i++) {
+            fwrite(&aUsuarios[i], sizeof(Usuario),1,pf);
+        }
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al guardar los usuarios");
+}
+
+void guardarMovilesEnFichero(Movil *aMoviles,int tam){
+    FILE *pf;
+    int i;
+    Movil m;
+    pf = fopen("Moviles.dat","wb");
+    if (pf!=(FILE *)NULL){
+        for (i = 0; i < tam; i++) {
+            fwrite(&aMoviles[i], sizeof(Movil),1,pf);
+        }
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al guardar los moviles");
+}
+
+void guardarPortatilesEnFichero(Portatil *aPortatiles,int tam){
+    FILE *pf;
+    int i;
+    Portatil p;
+    pf = fopen("Portatiles.dat","wb");
+    if (pf!=(FILE *)NULL){
+        for (i = 0; i < tam; i++) {
+            fwrite(&aPortatiles[i], sizeof(Portatil),1,pf);
+        }
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al guardar los portatiles");
+}
+
+void guardarTelevisionesEnFichero(Television *aTeles,int tam){
+    FILE *pf;
+    int i;
+    Television t;
+    pf = fopen("Televisiones.dat","wb");
+    if (pf!=(FILE *)NULL){
+        for (i = 0; i < tam; i++) {
+            fwrite(&aTeles[i], sizeof(Television),1,pf);
+        }
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al guardar las televisiones");
+}
+
