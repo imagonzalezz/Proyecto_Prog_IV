@@ -6,7 +6,9 @@
 #define PROYECTO_PROG_IV_FICHEROS_H
 
 #include "usuario.h"
+#include "dispositivos.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 void aniadirUsuario(Usuario u);
 int tamanioFichero(FILE *pf, char nomFichero[]);

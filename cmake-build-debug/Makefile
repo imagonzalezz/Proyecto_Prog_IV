@@ -142,6 +142,33 @@ Proyecto_Prog_IV/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/build
 .PHONY : Proyecto_Prog_IV/fast
 
+dispositivos.obj: dispositivos.c.obj
+
+.PHONY : dispositivos.obj
+
+# target to build an object file
+dispositivos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/dispositivos.c.obj
+.PHONY : dispositivos.c.obj
+
+dispositivos.i: dispositivos.c.i
+
+.PHONY : dispositivos.i
+
+# target to preprocess a source file
+dispositivos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/dispositivos.c.i
+.PHONY : dispositivos.c.i
+
+dispositivos.s: dispositivos.c.s
+
+.PHONY : dispositivos.s
+
+# target to generate assembly for a file
+dispositivos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/dispositivos.c.s
+.PHONY : dispositivos.c.s
+
 ficheros.obj: ficheros.c.obj
 
 .PHONY : ficheros.obj
@@ -223,33 +250,6 @@ menus.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/menus.c.s
 .PHONY : menus.c.s
 
-movil.obj: movil.c.obj
-
-.PHONY : movil.obj
-
-# target to build an object file
-movil.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/movil.c.obj
-.PHONY : movil.c.obj
-
-movil.i: movil.c.i
-
-.PHONY : movil.i
-
-# target to preprocess a source file
-movil.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/movil.c.i
-.PHONY : movil.c.i
-
-movil.s: movil.c.s
-
-.PHONY : movil.s
-
-# target to generate assembly for a file
-movil.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/movil.c.s
-.PHONY : movil.c.s
-
 usuario.obj: usuario.c.obj
 
 .PHONY : usuario.obj
@@ -286,6 +286,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Proyecto_Prog_IV
+	@echo ... dispositivos.obj
+	@echo ... dispositivos.i
+	@echo ... dispositivos.s
 	@echo ... ficheros.obj
 	@echo ... ficheros.i
 	@echo ... ficheros.s
@@ -295,9 +298,6 @@ help:
 	@echo ... menus.obj
 	@echo ... menus.i
 	@echo ... menus.s
-	@echo ... movil.obj
-	@echo ... movil.i
-	@echo ... movil.s
 	@echo ... usuario.obj
 	@echo ... usuario.i
 	@echo ... usuario.s

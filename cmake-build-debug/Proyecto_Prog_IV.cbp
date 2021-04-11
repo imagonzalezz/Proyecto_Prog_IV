@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/dispositivos.c">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/dispositivos.h">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/ficheros.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
@@ -87,15 +93,6 @@
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/menus.h">
-			<Option target="Proyecto_Prog_IV"/>
-		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/movil.c">
-			<Option target="Proyecto_Prog_IV"/>
-		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/movil.h">
-			<Option target="Proyecto_Prog_IV"/>
-		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/portatil.cpp">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/usuario.c">

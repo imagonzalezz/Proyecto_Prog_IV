@@ -33,7 +33,7 @@ typedef struct{
     char modelo[20];
     int pulgadas;
     char pantalla[20];
-};
+}Television;
 
 
 #endif //PROYECTO_PROG_IV_DISPOSITIVOS_H
