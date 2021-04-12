@@ -73,6 +73,7 @@ int main() {
     free(aMoviles);
     free(aPortatiles);
     free(aTeles);
+    return 0;
 }
 
 
