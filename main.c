@@ -15,8 +15,6 @@ int main() {
     tamMoviles = cargarMovilesDeFichero(&aMoviles);
     tamPortatiles = cargarPortatilesDeFichero(&aPortatiles);
     tamTeles = cargarTelevisionesDeFichero(&aTeles);
-    Usuario us = {"iker","iker",2};
-    aniadirUsuario(us,&aUsuarios,&tamUsuarios);
     do {
         do {
             opcionprincipal = mostrarPrincipal();
@@ -38,25 +36,25 @@ int main() {
                                         opcion = mostrarMoviles(aMoviles, tamMoviles);
                                     } while (opcion < 1 || opcion > tamMoviles);
                                     finalizarCompraMovil(aMoviles, opcion, ue);
-                                } else printf("Lo sentimos, aún no disponemos de móviles.");
+                                } else printf("Lo sentimos, aún no disponemos de móviles.\n");
                                 break;
                             case 2: if (tamPortatiles > 0) {
                                     do {
                                         opcion = mostrarPortatiles(aPortatiles, tamPortatiles);
                                     } while (opcion < 1 || opcion > tamPortatiles);
                                     finalizarCompraPortatil(aPortatiles, opcion, ue);
-                                } else printf("Lo sentimos, aún no disponemos de portátiles.");
+                                } else printf("Lo sentimos, aún no disponemos de portátiles.\n");
                                 break;
                             case 3: if(tamTeles>0){
                                     do {
                                         opcion = mostrarTelevisiones(aTeles, tamTeles);
                                     } while (opcion < 1 || opcion > tamTeles);
                                     finalizarCompraTelevision(aTeles, opcion, ue);
-                                }else printf("Lo sentimos, aún no disponemos de teles.");
+                                }else printf("Lo sentimos, aún no disponemos de televisiones.\n");
                                 break;
-                            case 4: printf("Volviendo al menú principal");
+                            case 4: printf("Volviendo al menú principal\n");
                                 break;
-                            default: printf("ERROR! La opción no es correcta");
+                            default: printf("ERROR! La opción no es correcta\n");
                         }
 
                     } while (opcion != 4);
@@ -72,9 +70,9 @@ int main() {
                                 break;
                             case 3: aniadirTelevision(solicitarDatosTelevision(ue), &aTeles, &tamTeles);
                                 break;
-                            case 4: printf("Volviendo al menú principal");
+                            case 4: printf("Volviendo al menú principal\n");
                                 break;
-                            default: printf("ERROR! La opción no es correcta");
+                            default: printf("ERROR! La opción no es correcta\n");
                         }
                     } while (opcion != 4);
                 }
@@ -84,9 +82,9 @@ int main() {
                 } while (comprobarUsuario(u, aUsuarios, tamUsuarios) == 1);
                 aniadirUsuario(u, &aUsuarios, &tamUsuarios);
                 break;
-            case 3: printf("FIN"); //Salir
+            case 3: printf("FIN DEL PROGRAMA\n"); //Salir
                 break;
-            default: printf("ERROR! La opción no es correcta");
+            default: printf("ERROR! La opción no es correcta\n");
         }
     } while (opcionprincipal != 3);
     guardarMovilesEnFichero(aMoviles, tamMoviles);

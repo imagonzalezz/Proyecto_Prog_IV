@@ -14,7 +14,10 @@ Usuario pedirDatosUsuario(){
     printf("Introduzca una contraseña:");
     fflush(stdin);
     scanf("%s",u.con);
-    u.permiso= 1;
+    printf("Pulse 1 si desea que la cuenta sea de usuario normal\n");
+    printf("Pulse 2 si desea que la cuenta sea de usuario vendedor\n");
+    fflush(stdin);
+    scanf("%d",&u.permiso);
     return u;
 }
 
