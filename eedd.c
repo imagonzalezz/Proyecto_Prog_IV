@@ -27,13 +27,3 @@ void aniadirTelevision(Television t, Television *aTeles, int *tam){
     aTeles[*tam] = t;
     (*tam)++;
 }
-
-int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam){
-    int enc = 0,i=0;
-    while (enc==0 && i<tam){
-        if (aUsuarios->usuario==u.usuario && aUsuarios->con==u.con)
-            enc=1;
-        i++;
-    }
-    return enc;
-}

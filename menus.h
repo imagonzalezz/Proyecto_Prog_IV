@@ -12,6 +12,9 @@
 int mostrarMenuUsuario();
 int mostrarPrincipal();
 Usuario mostrarInicioSesion();
-int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam);
+int mostrarMenuVendedor();
+Movil solicitarDatosMovil(Usuario vendedor);
+Portatil solicitarDatosPortatil(Usuario vendedor);
+Television solicitarDatosTelevision(Usuario vendedor);
 
 #endif //PROYECTO_PROG_IV_MENUS_H

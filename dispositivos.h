@@ -11,7 +11,7 @@
 #include "ficheros.h"
 
 typedef struct{
-    char vendedor[20];
+    Usuario vendedor;
     char marca[10];
     char modelo[20];
     int pulgadas;
@@ -21,7 +21,7 @@ typedef struct{
 }Movil;
 
 typedef struct{
-    char vendedor[20];
+    Usuario vendedor;
     char marca[20];
     char modelo[20];
     char procesador[20];
@@ -32,7 +32,7 @@ typedef struct{
 }Portatil;
 
 typedef struct{
-    char vendedor[20];
+    Usuario vendedor;
     char marca[20];
     char modelo[20];
     int pulgadas;

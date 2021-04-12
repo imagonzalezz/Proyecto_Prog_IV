@@ -16,11 +16,12 @@ Usuario pedirDatosUsuario(){
     return u;
 }
 
-Usuario inicioSesion(){
-    Usuario u;
-    printf("Nombre de usuario:");
-    scanf("%s",u.usuario);
-    printf("Contraseña:");
-    scanf("%s",u.con);
-    return u;
+int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam){
+    int enc = 0,i=0;
+    while (enc==0 && i<tam){
+        if (aUsuarios->usuario==u.usuario && aUsuarios->con==u.con)
+            enc=1;
+        i++;
+    }
+    return enc;
 }
