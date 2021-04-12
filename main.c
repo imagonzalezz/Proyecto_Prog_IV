@@ -15,8 +15,8 @@ int main() {
     tamMoviles = cargarMovilesDeFichero(&aMoviles);
     tamPortatiles = cargarPortatilesDeFichero(&aPortatiles);
     tamTeles = cargarTelevisionesDeFichero(&aTeles);
-    //Usuario us = {"iker","iker",2};
-    //aniadirUsuario(us,&aUsuarios,&tamUsuarios);
+    Usuario us = {"iker","iker",2};
+    aniadirUsuario(us,&aUsuarios,&tamUsuarios);
     do {
         do {
             opcionprincipal = mostrarPrincipal();
