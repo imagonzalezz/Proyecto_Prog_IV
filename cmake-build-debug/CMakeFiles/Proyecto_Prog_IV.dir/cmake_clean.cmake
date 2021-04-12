@@ -1,15 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Proyecto_Prog_IV.dir/dispositivos.c.obj"
-  "CMakeFiles/Proyecto_Prog_IV.dir/eedd.c.obj"
-  "CMakeFiles/Proyecto_Prog_IV.dir/ficheros.c.obj"
-  "CMakeFiles/Proyecto_Prog_IV.dir/main.c.obj"
-  "CMakeFiles/Proyecto_Prog_IV.dir/menus.c.obj"
-  "CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.obj"
-  "CMakeFiles/Proyecto_Prog_IV.dir/venta.c.obj"
-  "Proyecto_Prog_IV.exe"
-  "Proyecto_Prog_IV.exe.manifest"
+  "CMakeFiles/Proyecto_Prog_IV.dir/dispositivos.c.o"
+  "CMakeFiles/Proyecto_Prog_IV.dir/eedd.c.o"
+  "CMakeFiles/Proyecto_Prog_IV.dir/ficheros.c.o"
+  "CMakeFiles/Proyecto_Prog_IV.dir/main.c.o"
+  "CMakeFiles/Proyecto_Prog_IV.dir/menus.c.o"
+  "CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.o"
+  "CMakeFiles/Proyecto_Prog_IV.dir/venta.c.o"
+  "Proyecto_Prog_IV"
   "Proyecto_Prog_IV.pdb"
-  "libProyecto_Prog_IV.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

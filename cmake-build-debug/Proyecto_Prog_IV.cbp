@@ -8,112 +8,114 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
+				<Option working_dir="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Proyecto_Prog_IV">
-				<Option output="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Proyecto_Prog_IV.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_Prog_IV"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Proyecto_Prog_IV/fast">
-				<Option output="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Proyecto_Prog_IV.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_Prog_IV/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
+				<Option working_dir="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/ikery/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_Prog_IV">
+				<Option output="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Proyecto_Prog_IV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_Prog_IV"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_Prog_IV/fast">
+				<Option output="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Proyecto_Prog_IV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_Prog_IV/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ikeryanez/CLionProjects/ProyectoProgIV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/dispositivos.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/dispositivos.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/dispositivos.h">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/dispositivos.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/eedd.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/eedd.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/eedd.h">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/eedd.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/ficheros.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/ficheros.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/ficheros.h">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/ficheros.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/main.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/main.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/menus.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/menus.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/menus.h">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/menus.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/usuario.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/usuario.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/usuario.h">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/usuario.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/venta.c">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/venta.c">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/venta.h">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/venta.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
-		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/CMakeLists.txt">
+		<Unit filename="/Users/ikeryanez/CLionProjects/ProyectoProgIV/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

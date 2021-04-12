@@ -13,6 +13,7 @@ Usuario pedirDatosUsuario(){
     printf("Introduzca una contraseña:");
     fflush(stdin);
     scanf("%s",u.con);
+    u.permiso = 1;
     return u;
 }
 
