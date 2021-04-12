@@ -27,7 +27,7 @@ int mostrarPrincipal(){
 
 Usuario mostrarInicioSesion(){
     Usuario u;
-    printf("Introduzca su nombre de usuario");
+    printf("Introduzca su nombre de usuario:");
     fflush(stdin);
     scanf("%s",u.usuario);
     printf("Introduzca su contraseña:");
@@ -38,10 +38,10 @@ Usuario mostrarInicioSesion(){
 
 int mostrarMenuVendedor(){
     int opcion;
-    printf("Selecciona la operacion a realizar");
-    printf("1. Poner movil a la venta");
-    printf("2. Poner portatil a la venta");
-    printf("3. Poner television a la venta");
+    printf("Selecciona la operacion a realizar\n");
+    printf("1. Poner movil a la venta\n");
+    printf("2. Poner portatil a la venta\n");
+    printf("3. Poner television a la venta\n");
     fflush(stdin);
     scanf("%d",&opcion);
     return opcion;

@@ -15,6 +15,8 @@ int main() {
     tamMoviles = cargarMovilesDeFichero(&aMoviles);
     tamPortatiles = cargarPortatilesDeFichero(&aPortatiles);
     tamTeles = cargarTelevisionesDeFichero(&aTeles);
+    //Usuario us = {"iker","iker",2};
+    //aniadirUsuario(us,&aUsuarios,&tamUsuarios);
     do {
         do {
             opcionprincipal = mostrarPrincipal();
@@ -24,7 +26,6 @@ int main() {
                         u = mostrarInicioSesion();
                         ue = buscarUsuario(u,aUsuarios,tamUsuarios);
                     } while (comprobarUsuario(u, aUsuarios, tamUsuarios) == 0);
-                    printf("Se ha iniciado sesión con permiso %d\n",u.permiso);
                     if (ue.permiso == 1) { //Usuario normal
                         do {
                             opcion = mostrarMenuUsuario();
@@ -51,11 +52,11 @@ int main() {
                             opcion = mostrarMenuVendedor();
                         } while (opcion < 1 || opcion > 3);
                         if (opcion == 1) { //Añadir movil
-                            aniadirMovil(solicitarDatosMovil(ue), aMoviles, &tamMoviles);
+                            aniadirMovil(solicitarDatosMovil(ue), &aMoviles, &tamMoviles);
                         } else if (opcion == 2) { //Añadir portatil
-                            aniadirPortatil(solicitarDatosPortatil(ue),aMoviles,&tamPortatiles);
+                            aniadirPortatil(solicitarDatosPortatil(ue),&aPortatiles,&tamPortatiles);
                         }else
-                            aniadirTelevision(solicitarDatosTelevision(ue),aTeles,&tamTeles);
+                            aniadirTelevision(solicitarDatosTelevision(ue),&aTeles,&tamTeles);
                     }break;
             case 2: do { //Registrar
                         u = pedirDatosUsuario();
@@ -66,11 +67,12 @@ int main() {
     }while(opcionprincipal!=3);
     guardarMovilesEnFichero(aMoviles,tamMoviles);
     guardarPortatilesEnFichero(aPortatiles,tamPortatiles);
-    guardarTelevisionesEnFichero(aMoviles,tamPortatiles);
+    guardarTelevisionesEnFichero(aTeles,tamTeles);
     guardarUsuariosEnFichero(aUsuarios,tamUsuarios);
     free(aUsuarios);
     free(aMoviles);
     free(aPortatiles);
+    free(aTeles);
 }
 
 

@@ -8,7 +8,7 @@
 typedef struct{
     char usuario[20];
     char con[20];
-    int permiso; //1 usuario normal, 2 vendedor, 3 administrador del sistema
+    int permiso; //1 usuario normal, 2 vendedor
 }Usuario;
 
 Usuario pedirDatosUsuario();
