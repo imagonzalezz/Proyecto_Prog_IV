@@ -20,7 +20,7 @@ int main() {
             opcionprincipal = mostrarPrincipal();
         } while (opcionprincipal < 1 || opcionprincipal >3);
         switch (opcionprincipal) {
-            case 1: do {
+            case 1: do { //Iniciar Sesion
                         u = mostrarInicioSesion();
                         ue = buscarUsuario(u,aUsuarios,tamUsuarios);
                     } while (comprobarUsuario(u, aUsuarios, tamUsuarios) == 0);
@@ -51,16 +51,17 @@ int main() {
                             opcion = mostrarMenuVendedor();
                         } while (opcion < 1 || opcion > 3);
                         if (opcion == 1) { //Añadir movil
-                            aniadirMovil(solicitarDatosMovil(u), aMoviles, &tamMoviles);
+                            aniadirMovil(solicitarDatosMovil(ue), aMoviles, &tamMoviles);
                         } else if (opcion == 2) { //Añadir portatil
-
-                        }
+                            aniadirPortatil(solicitarDatosPortatil(ue),aMoviles,&tamPortatiles);
+                        }else
+                            aniadirTelevision(solicitarDatosTelevision(ue),aTeles,&tamTeles);
                     }break;
-            case 2: do {
+            case 2: do { //Registrar
                         u = pedirDatosUsuario();
                     } while (comprobarUsuario(u, aUsuarios, tamUsuarios)==1);
                     aniadirUsuario(u, &aUsuarios, &tamUsuarios);break;
-            case 3: printf("FIN");
+            case 3: printf("FIN"); //Salir
         }
     }while(opcionprincipal!=3);
     guardarMovilesEnFichero(aMoviles,tamMoviles);
