@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/usuario.h">
 			<Option target="Proyecto_Prog_IV"/>
 		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/venta.c">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
+		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/venta.h">
+			<Option target="Proyecto_Prog_IV"/>
+		</Unit>
 		<Unit filename="C:/Users/ikery/CLionProjects/ProyectoProgIV/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

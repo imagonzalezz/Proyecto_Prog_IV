@@ -180,3 +180,33 @@ void guardarTelevisionesEnFichero(Television *aTeles,int tam){
         printf("Ha ocurrido un error al guardar las televisiones");
 }
 
+void registrarVentaMovil(VentaMovil v){
+    FILE *pf;
+    pf = fopen("VentasMoviles.dat","ab");
+    if (pf!=(FILE *)NULL){
+        fwrite(&v, sizeof(VentaMovil),1,pf);
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al registrar la venta");
+}
+
+void registrarVentaPortatil(VentaPortatil v){
+    FILE *pf;
+    pf = fopen("VentasPortatiles.dat","ab");
+    if (pf!=(FILE *)NULL){
+        fwrite(&v, sizeof(VentaPortatil),1,pf);
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al registrar la venta");
+}
+
+void registrarVentaTelevision(VentaTelevision v){
+    FILE *pf;
+    pf = fopen("VentasTelevisiones.dat","ab");
+    if (pf!=(FILE *)NULL){
+        fwrite(&v, sizeof(VentaTelevision),1,pf);
+        fclose(pf);
+    }else
+        printf("Ha ocurrido un error al registrar la venta");
+}
+

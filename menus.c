@@ -5,12 +5,10 @@
 
 int mostrarMenuUsuario(){
     int opcion;
-    printf("Pulse 0 si desea salir");
-    printf("Selecciona el tipo de dispositivo\n");
+    printf("Selecciona el tipo de dispositivo que quiere adquirir\n");
     printf("1. Moviles\n");
     printf("2. Portatiles\n");
     printf("3. Televisiones\n");
-    printf("4. Finalizar Compra");
     fflush(stdin);
     scanf("%d",&opcion);
     return opcion;

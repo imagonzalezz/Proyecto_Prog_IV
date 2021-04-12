@@ -304,6 +304,33 @@ usuario.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/usuario.c.s
 .PHONY : usuario.c.s
 
+venta.obj: venta.c.obj
+
+.PHONY : venta.obj
+
+# target to build an object file
+venta.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/venta.c.obj
+.PHONY : venta.c.obj
+
+venta.i: venta.c.i
+
+.PHONY : venta.i
+
+# target to preprocess a source file
+venta.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/venta.c.i
+.PHONY : venta.c.i
+
+venta.s: venta.c.s
+
+.PHONY : venta.s
+
+# target to generate assembly for a file
+venta.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_Prog_IV.dir\build.make CMakeFiles/Proyecto_Prog_IV.dir/venta.c.s
+.PHONY : venta.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -331,6 +358,9 @@ help:
 	@echo ... usuario.obj
 	@echo ... usuario.i
 	@echo ... usuario.s
+	@echo ... venta.obj
+	@echo ... venta.i
+	@echo ... venta.s
 .PHONY : help
 
 

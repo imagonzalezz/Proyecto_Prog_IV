@@ -6,6 +6,9 @@
 #define PROYECTO_PROG_IV_DISPOSITIVOS_H
 
 #include <stdio.h>
+#include "usuario.h"
+#include "venta.h"
+#include "ficheros.h"
 
 typedef struct{
     char vendedor[20];
@@ -33,10 +36,11 @@ typedef struct{
     char marca[20];
     char modelo[20];
     int pulgadas;
-    char pantalla[20];
+    float precio;
 }Television;
 
-void mostrarMoviles(Movil *aMoviles,int tam);
-void mostrarPortatiles(Portatil *aPortatiles,int tam);
+int mostrarMoviles(Movil *aMoviles,int tam);
+int mostrarPortatiles(Portatil *aPortatiles,int tam);
+int mostrarTelevisiones(Television *aTeles, int tam);
 
 #endif //PROYECTO_PROG_IV_DISPOSITIVOS_H

@@ -18,10 +18,21 @@ int main() {
     do {
         opcion = mostrarPrincipal();
     } while (opcion!=1 && opcion!=2);
-    if (opcion==1){
+    if (opcion==1){ //Iniciar Sesion
         do {
             u = mostrarInicioSesion();
-        } while (comprobarUsuario(u,aUsuarios,tamUsuarios))
+        } while (comprobarUsuario(u,aUsuarios,tamUsuarios)==0);
+        if(u.permiso==1){ //Usuario normal
+            do {
+                opcion=mostrarMenuUsuario();
+            } while (opcion>4 && opcion<1);
+            if (opcion==1){ //Moviles
+                do {
+                    opcion = mostrarMoviles(aMoviles,tamMoviles);
+                } while (opcion<1 && opcion>tamMoviles);
+
+            }
+        }
     }
 }
 

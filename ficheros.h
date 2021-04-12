@@ -22,5 +22,8 @@ void guardarUsuariosEnFichero(Usuario *aUsuarios,int tam);
 void guardarMovilesEnFichero(Movil *aMoviles,int tam);
 void guardarPortatilesEnFichero(Portatil *aPortatiles,int tam);
 void guardarTelevisionesEnFichero(Television *aTeles,int tam);
+void registrarVentaMovil(VentaMovil v);
+void registrarVentaPortatil(VentaPortatil v);
+void registrarVentaTelevision(VentaTelevision v);
 
 #endif //PROYECTO_PROG_IV_FICHEROS_H

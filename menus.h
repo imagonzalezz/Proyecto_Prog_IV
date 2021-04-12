@@ -9,7 +9,7 @@
 #include "dispositivos.h"
 #include "ficheros.h"
 
-int mostrarMenu();
+int mostrarMenuUsuario();
 int mostrarPrincipal();
 Usuario mostrarInicioSesion();
 int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam);
