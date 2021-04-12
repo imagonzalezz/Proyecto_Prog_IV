@@ -5,7 +5,13 @@
 #ifndef PROYECTO_PROG_IV_MENUS_H
 #define PROYECTO_PROG_IV_MENUS_H
 
-char mostrarMenu();
-void inicioSesion();
+#include <stdio.h>
+#include "dispositivos.h"
+#include "ficheros.h"
+
+int mostrarMenu();
+int mostrarPrincipal();
+Usuario mostrarInicioSesion();
+int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam);
 
 #endif //PROYECTO_PROG_IV_MENUS_H

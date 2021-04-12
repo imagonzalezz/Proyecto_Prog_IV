@@ -5,14 +5,15 @@
 #ifndef PROYECTO_PROG_IV_DISPOSITIVOS_H
 #define PROYECTO_PROG_IV_DISPOSITIVOS_H
 
+#include <stdio.h>
+
 typedef struct{
     char vendedor[20];
-    char marca[20];
+    char marca[10];
     char modelo[20];
     int pulgadas;
     int ram;
     int almacenamiento;
-    int bateria;
     float precio;
 }Movil;
 
@@ -20,8 +21,8 @@ typedef struct{
     char vendedor[20];
     char marca[20];
     char modelo[20];
-    int pulgadas;
     char procesador[20];
+    int pulgadas;
     int ram;
     int almacenamiento;
     float precio;
@@ -35,5 +36,7 @@ typedef struct{
     char pantalla[20];
 }Television;
 
+void mostrarMoviles(Movil *aMoviles,int tam);
+void mostrarPortatiles(Portatil *aPortatiles,int tam);
 
 #endif //PROYECTO_PROG_IV_DISPOSITIVOS_H
