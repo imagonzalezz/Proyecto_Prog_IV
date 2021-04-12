@@ -9,6 +9,7 @@ int mostrarMenuUsuario(){
     printf("1. Moviles\n");
     printf("2. Portatiles\n");
     printf("3. Televisiones\n");
+    printf("4. Salir");
     fflush(stdin);
     scanf("%d",&opcion);
     return opcion;
@@ -42,6 +43,7 @@ int mostrarMenuVendedor(){
     printf("1. Poner movil a la venta\n");
     printf("2. Poner portatil a la venta\n");
     printf("3. Poner television a la venta\n");
+    printf("4. Salir\n");
     fflush(stdin);
     scanf("%d",&opcion);
     return opcion;
