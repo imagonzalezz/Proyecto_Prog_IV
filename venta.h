@@ -7,7 +7,6 @@
 
 #include "usuario.h"
 #include "dispositivos.h"
-
 typedef struct{
     Usuario u;
     Movil m;

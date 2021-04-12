@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 #include "usuario.h"
 
 Usuario pedirDatosUsuario(){
@@ -20,9 +21,20 @@ Usuario pedirDatosUsuario(){
 int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam){
     int enc = 0,i=0;
     while (enc==0 && i<tam){
-        if (aUsuarios->usuario==u.usuario && aUsuarios->con==u.con)
+        if (strcmp(aUsuarios[i].usuario,u.usuario)==0 && strcmp(aUsuarios[i].con,u.con)==0)
             enc=1;
-        i++;
+        else
+            i++;
     }
     return enc;
+}
+Usuario buscarUsuario(Usuario u,Usuario *aUsuarios, int tam){
+    int enc = 0,i=0;
+    while (enc==0 && i<tam){
+        if (strcmp(aUsuarios[i].usuario,u.usuario)==0 && strcmp(aUsuarios[i].con,u.con)==0)
+            enc=1;
+        else
+            i++;
+    }
+    return aUsuarios[i];
 }

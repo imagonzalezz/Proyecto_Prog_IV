@@ -15,22 +15,24 @@ int mostrarMenuUsuario(){
 }
 
 int mostrarPrincipal(){
-    char opcion;
+    int opcion;
     printf("Bienvenido a UDTechnologies\n");
     printf("1. Iniciar Sesion\n");
     printf("2. Registrarse\n");
+    printf("3. Salir\n");
     fflush(stdin);
-    scanf("%c",&opcion);
+    scanf("%d",&opcion);
+    return opcion;
 }
 
 Usuario mostrarInicioSesion(){
     Usuario u;
     printf("Introduzca su nombre de usuario");
     fflush(stdin);
-    scanf("%s",&u.usuario);
+    scanf("%s",u.usuario);
     printf("Introduzca su contraseña:");
     fflush(stdin);
-    scanf("%s",&u.con);
+    scanf("%s",u.con);
     return u;
 }
 
@@ -56,16 +58,16 @@ Movil solicitarDatosMovil(Usuario vendedor){
     gets(m.modelo);
     printf("Introducir pulgadas:");
     fflush(stdin);
-    scanf("%d",m.pulgadas);
+    scanf("%d",&m.pulgadas);
     printf("Introducir memoria ram en GB:");
     fflush(stdin);
-    scanf("%d",m.ram);
+    scanf("%d",&m.ram);
     printf("Introducir espacio de almacenamiento en GB:");
     fflush(stdin);
-    scanf("%d",m.almacenamiento);
+    scanf("%d",&m.almacenamiento);
     printf("Introducir precio en €:");
     fflush(stdin);
-    scanf("%d",m.precio);
+    scanf("%f",&m.precio);
     return m;
 }
 
@@ -83,16 +85,16 @@ Portatil solicitarDatosPortatil(Usuario vendedor){
     gets(p.procesador);
     printf("Introducir pulgadas:");
     fflush(stdin);
-    scanf("%d",p.pulgadas);
+    scanf("%d",&p.pulgadas);
     printf("Introducir memoria ram en GB:");
     fflush(stdin);
-    scanf("%d",p.ram);
+    scanf("%d",&p.ram);
     printf("Introducir espacio de almacenamiento en GB:");
     fflush(stdin);
-    scanf("%d",p.almacenamiento);
+    scanf("%d",&p.almacenamiento);
     printf("Introducir precio en €:");
     fflush(stdin);
-    scanf("%d",p.precio);
+    scanf("%f",&p.precio);
     return p;
 }
 
@@ -107,10 +109,10 @@ Television solicitarDatosTelevision(Usuario vendedor){
     gets(t.modelo);
     printf("Introducir pulgadas:");
     fflush(stdin);
-    scanf("%d",t.pulgadas);
+    scanf("%d",&t.pulgadas);
     printf("Introducir precio en €:");
     fflush(stdin);
-    scanf("%d",t.precio);
+    scanf("%f",&t.precio);
     return t;
 }
 

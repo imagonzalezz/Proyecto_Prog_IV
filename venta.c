@@ -3,7 +3,7 @@
 //
 
 #include "venta.h"
-
+#include <stdio.h>
 void finalizarCompraMovil(Movil *aMoviles, int opcion, Usuario u){
     Movil m = aMoviles[opcion-1];
     VentaMovil v;

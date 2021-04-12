@@ -13,5 +13,5 @@ typedef struct{
 
 Usuario pedirDatosUsuario();
 int comprobarUsuario(Usuario u,Usuario *aUsuarios, int tam);
-
+Usuario buscarUsuario(Usuario u,Usuario *aUsuarios, int tam);
 #endif //PROYECTO_PROG_IV_USUARIO_H
