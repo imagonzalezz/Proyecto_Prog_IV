@@ -1,7 +1,3 @@
-//
-// Created by ikery on 10/04/2021.
-//
-
 #include <stdio.h>
 #include <string.h>
 #include "usuario.h"

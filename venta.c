@@ -1,7 +1,3 @@
-//
-// Created by ikery on 12/04/2021.
-//
-
 #include "venta.h"
 #include <stdio.h>
 void finalizarCompraMovil(Movil *aMoviles, int opcion, Usuario u){

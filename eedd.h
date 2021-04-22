@@ -1,7 +1,3 @@
-//
-// Created by ikery on 11/04/2021.
-//
-
 #ifndef PROYECTO_PROG_IV_EEDD_H
 #define PROYECTO_PROG_IV_EEDD_H
 #include "dispositivos.h"

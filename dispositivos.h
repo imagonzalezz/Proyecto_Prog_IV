@@ -1,7 +1,3 @@
-//
-// Created by ikery on 11/04/2021.
-//
-
 #ifndef PROYECTO_PROG_IV_DISPOSITIVOS_H
 #define PROYECTO_PROG_IV_DISPOSITIVOS_H
 

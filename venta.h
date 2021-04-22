@@ -1,7 +1,3 @@
-//
-// Created by ikery on 12/04/2021.
-//
-
 #ifndef PROYECTO_PROG_IV_VENTA_H
 #define PROYECTO_PROG_IV_VENTA_H
 

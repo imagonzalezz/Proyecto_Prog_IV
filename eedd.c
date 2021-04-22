@@ -1,7 +1,3 @@
-//
-// Created by ikery on 11/04/2021.
-//
-
 #include "eedd.h"
 #include "usuario.h"
 #include "dispositivos.h"
